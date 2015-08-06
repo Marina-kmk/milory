@@ -1,0 +1,8 @@
+{
+  "name": "site_mary",
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "normalize.css": "~3.0.3",
+    "modernizer": "~2.8.2"
+  }
+}

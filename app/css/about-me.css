@@ -1,0 +1,135 @@
+/* Общие стили для всех секций */
+.aboutbox{
+	background: #eff3f7;
+	border-radius: 4px;
+	margin-bottom: 26px;
+}
+.aboutbox .aboutbox-header{
+	font-family: 'fira_sansbook';
+	font-size: 27px;
+	font-weight: normal;
+	color: #3ba8c0;
+	border-bottom: 2px #3ba8c0 solid;
+	margin: 0 0 23px 0;
+	padding: 13px 23px;
+	display: inline-block;
+}
+.aboutbox-body{
+	padding-bottom: 40px;	
+}
+/* Общие стили для всех секций - конец */
+
+
+
+/* Лицо */
+.image-wrap{	
+	float: left;
+	margin-left: 55px;
+	margin-top: 18px;		
+}
+.avatar-box{
+	width: 142px;
+	height: 142px;
+	border-radius: 50% 50%;
+	overflow: hidden;
+	border: 5px solid #3ba8c0;
+}
+.avatar{
+	width: 100%;
+}
+/* Лицо - конец */
+
+
+/* Список анкетных данных */
+.aboutbox .worksheet-wrap{
+	float: right;
+  width: 400px;
+}
+.worksheet-list{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.worksheet-info{	
+	float: left;
+	margin-left: 25px;
+	max-width: 260px;
+}
+.worksheet-item{
+	margin-bottom: 8px;
+}
+.worksheet-what {
+	font-family: 'fira_sansmedium';
+  font-size: 16px;
+  float: left;
+}
+.worksheet-info{
+	font-family: 'fira_sansbook';
+  font-size: 15px;
+  overflow: hidden;
+  max-width: 218px;
+}
+/* Список анкетных данных - конец */
+
+
+
+/* Ключевые навыки */
+.worksheet-info .skills-list{	
+	width: 224px;
+	padding: 0;
+	list-style: none;
+}
+.skills-list .skill-item{
+	display: inline-block;
+	font-family: 'ProximaNovaCondensedSemibold';
+  background: #3ba8c0; /* Old browsers */
+	background: -moz-linear-gradient(top,  #3ba8c0 0%, #3ba8c0 49%, #2e8ca2 50%, #2e8ca2 99%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#3ba8c0), color-stop(49%,#3ba8c0), color-stop(50%,#2e8ca2), color-stop(99%,#2e8ca2)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #3ba8c0 0%,#3ba8c0 49%,#2e8ca2 50%,#2e8ca2 99%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #3ba8c0 0%,#3ba8c0 49%,#2e8ca2 50%,#2e8ca2 99%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #3ba8c0 0%,#3ba8c0 49%,#2e8ca2 50%,#2e8ca2 99%); /* IE10+ */
+	background: linear-gradient(to bottom,  #3ba8c0 0%,#3ba8c0 49%,#2e8ca2 50%,#2e8ca2 99%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3ba8c0', endColorstr='#2e8ca2',GradientType=0 ); /* IE6-9 */
+	border-radius: 4px;
+	padding: 0 7px;
+	margin-right: 6px;
+	color: white;
+	display: inline-block;
+	line-height: 1.2;
+	min-width: 40px;
+	text-align: center;
+}
+
+
+/* Опыт работы и образование*/
+.aboutbox .aboutbox-list{
+	list-style: none;
+	padding: 0 0 0 50px;
+	margin: 0;
+}
+.aboutbox .aboutbox-item{
+	padding: 0 0 0 76px;
+	margin-bottom: 20px;
+}
+.aboutbox .aboutbox-item:last-child{
+	margin-bottom: 0;
+}
+.aboutbox-item .where{
+	font-family: 'fira_sansbook';
+  font-size: 16px;
+}
+.aboutbox-item .period{
+	font-family: 'fira_sanslight';
+  font-size: 15px;
+  line-height: 1;
+}
+.aboutbox-item.icon-work{
+	background: url(../img/portfel.png) 9px center no-repeat;
+}
+
+.aboutbox-item.icon-college{
+	background: url(../img/college.png) 9px center no-repeat;
+}
+.aboutbox-item.icon-course{
+	background: url(../img/course.png) 17px center no-repeat;
+}

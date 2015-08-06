@@ -1,0 +1,7 @@
+{
+  "name": "site_mary",
+  "devDependencies": {
+    "browser-sync": "^2.8.2",
+    "gulp": "^3.9.0"
+  }
+}
