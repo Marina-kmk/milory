@@ -1,0 +1,35 @@
+.modal-wrapper{
+	background: #eff3f7;
+	box-shadow: 0px 6px 12.48px 0.52px rgba(13, 16, 7, 0.35);
+	border-radius: 5px;
+	width: 364px;	
+}
+.modal-header{
+	background: #48cbe8;
+	padding: 6px 13px 2px;
+	border-bottom: 9px solid #67dffa;
+	border-radius: 5px 5px 0 0;
+}
+.modal-body{
+	padding: 7px 22px;	
+}
+.modal-title{
+	font-size: 23px;
+	color: #fbfcfd;
+	font-family: 'fira_sansregular';
+	font-weight: normal;
+	margin: 0;
+}
+.modal-body .btn-wrapp{
+	text-align: center;
+	margin: 13px auto 6px;
+}
+.modal-header .b-close{
+	height: 25px;
+	width: 25px;
+	position: absolute;
+	right: 11px;
+	top: 10px;
+	background: url(../img/close-icon.png) no-repeat;
+	border: 0;
+}
